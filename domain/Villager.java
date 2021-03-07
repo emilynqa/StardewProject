@@ -40,7 +40,7 @@ public class Villager {
 		super();
 		this.name = name;
 		this.birthDay = birthDay;
-		this.birthMonth = birthSeason;
+		this.birthSeason = birthSeason;
 		this.faveItem = faveItem;
 		this.leastFaveItem = leastFaveItem;
 	}
