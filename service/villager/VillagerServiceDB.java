@@ -40,7 +40,9 @@ public class VillagerServiceDB implements VillagerService {
 	}
 
 	@Override
+
 	public Boolean removeVillager(Long id) {
+
 		this.repo.deleteById(id);
 		return this.repo.existsById(id);
 	}

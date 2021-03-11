@@ -6,11 +6,15 @@ import com.qa.stardewproject.domain.Villager;
 
 public interface VillagerService {
 
+
+	
+
 	List<Villager> getVillager();
 
 	Villager getVillagerById(Long id);
 
-	Boolean removeVillager(Long id);
+  Boolean removeVillager(Long id);
+
 
 	Villager updateVillager(Long id, Villager newVillager);
 
@@ -18,4 +22,3 @@ public interface VillagerService {
 
 	Villager addVillager(Villager villager);
 
-}
